@@ -1,0 +1,532 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(250, 248, 243);
+}
+
+section {
+    width: 100%;
+    min-height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    padding-top: 70px; 
+}
+
+section nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px #949494;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 10px;
+}
+
+section nav .logo img {
+    max-width: 100px;
+    height: auto;
+    cursor: pointer;
+}
+
+section nav ul {
+    list-style: none;
+    display: flex;
+}
+
+section nav li {
+    padding: 10px;
+}
+
+section nav li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #292929;
+}
+
+section nav li a:hover {
+    color: #6e4902;
+}
+
+section nav .social_icon i {
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+section nav .social_icon i:hover {
+    color: #d10000;
+    cursor: pointer;
+}
+
+input {
+    border-radius: 25px;
+    padding: 3px;
+}
+
+/* Main */
+
+section .main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 70px; 
+}
+
+section .main h1 {
+    font-size: 55px;
+}
+
+section .main h1 span {
+    color: #6e4d04;
+}
+
+section .main p {
+    width: 100%; 
+    max-width: 650px; 
+    margin-bottom: 30px;
+    font-style: italic;
+    text-align: justify;
+    line-height: 22px;
+}
+
+section .main .main_tag .main_btn {
+    background: #06bd67;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+section .main .main_img img {
+    max-width: 100%; 
+    height: auto;
+    margin-top: 20px;
+}
+
+section .main .main_tag .main_btn:hover {
+    background: rgb(124, 75, 1);
+}
+
+section .main .main_tag .main_btn:active {
+    background: rgb(100, 100, 100);
+}
+
+/* About us */
+
+.about {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(179, 165, 122);
+}
+
+.about .about_image img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.about .about_tag h1 {
+    font-size: 50px;
+}
+
+.about .about_tag p {
+    width: 100%; 
+    max-width: 650px;
+    line-height: 22px;
+    text-align: justify;
+    margin-bottom: 30px;
+    color: rgb(241, 241, 241);
+    font-style: italic;
+}
+
+.about .about_tag .about_btn {
+    padding: 10px 20px;
+    background: #4d3800;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.about .about_tag .about_btn:hover {
+    background-color: #06bd67;
+    transition: background-color 0.3s ease;
+}
+
+/* Genre */
+
+.PoluparGenra {
+    width: 100%;
+    padding: 20px;
+    margin: 35px 0;
+
+}
+
+.PoluparGenra .Genra {
+    padding: 20px;
+    font-size: xx-large;
+    border-left: 4px solid rgb(141, 0, 0);
+}
+
+.PoluparGenra .Genra span {
+    font-weight: bolder;
+}
+
+.PoluparGenra .Genra_box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+.PoluparGenra .Genra_box .Genra_card:hover {
+    box-shadow: 0 0 12px #473100;
+}
+
+.PoluparGenra .Genra_box .Genra_card {
+    text-align: center;
+    width: 170px;
+    height: 230px;
+    box-shadow: 0 0 8px #4b4b4b;
+    padding: 15px 10px;
+    margin-bottom: 20px; 
+}
+
+.PoluparGenra .Genra_box .Genra_card img {
+    font-size: 45px;
+    cursor: pointer;
+    width: 89px;
+}
+
+.PoluparGenra .Genra_box .Genra_card h3 {
+    margin: 5px;
+    font-size: medium;
+}
+
+.PoluparGenra .Genra_box .Genra_card i {
+    color: rgb(255, 231, 17);
+}
+
+/* Button Genre */
+
+.buttom_genre {
+    width: 100%;
+    padding: 20px;
+    margin: 35px 0;
+}
+
+.buttom_genre .buttom_box {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttom_genre .buttom_box .buttom_card:hover {
+    box-shadow: 0 0 12px #473100;
+}
+
+.buttom_genre .buttom_box .buttom_card {
+    text-align: center;
+    width: 170px;
+    height: 230px;
+    box-shadow: 0 0 8px #4b4b4b;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+}
+
+.buttom_genre .buttom_box .buttom_card img {
+    font-size: 45px;
+    cursor: pointer;
+    width: 80px;
+}
+
+.buttom_genre .buttom_box .buttom_card h3 {
+    margin: 5px;
+    font-size: medium;
+}
+
+.buttom_genre .buttom_box .buttom_card i {
+    color: rgb(255, 231, 17);
+}
+
+/* Sell Books */
+
+.sell_books {
+    width: 100%;
+    padding: 20px;
+    margin: 35px 0;
+    background-color: rgb(241, 237, 217);
+}
+
+.sell_books h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+.sell_books .sell_book_box {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap; 
+    overflow-x: auto; 
+    padding-bottom: 20px; 
+}
+
+.sell_books .sell_book_box .sell_book_card {
+    width: 300px;
+    height: 420px;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid #818181;
+    margin: 0 20px; 
+}
+
+.sell_books .sell_book_box .sell_book_card:hover {
+    box-shadow: 0 0 5px #000000;
+}
+
+.sell_books .sell_book_box .sell_book_card .sell_book_img img {
+    width: 150px;
+}
+
+.sell_books .sell_book_box .sell_book_card .sell_book_tag h2 {
+    margin: 12px;
+}
+
+.sell_books .sell_book_box .sell_book_card .sell_book_tag .writer {
+    color: #5e5e5e;
+}
+
+.sell_books .sell_book_box .sell_book_card .sell_book_tag .categories {
+    color: #000000;
+    font-weight: bolder;
+    margin-top: 8px;
+}
+
+.sell_books .sell_book_box .sell_book_card .sell_book_tag .book_price {
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.sell_books .sell_book_box .sell_book_card .sell_book_tag .book_price sub {
+    font-weight: 100;
+    padding: 0 5px;
+}
+
+.sell_books .sell_book_box .sell_book_card .sell_book_tag .f_btn {
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid rgb(0, 124, 62);
+}
+
+.sell_books .sell_book_box .sell_book_card .sell_book_tag .f_btn:hover {
+    background-color: rgb(238, 238, 238);
+    color: rgb(58, 58, 58);
+}
+
+/* Reviews */
+
+.reviews {
+    padding: 20px;
+}
+
+.reviews h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reviews .review_box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.reviews .review_box .review_card {
+    flex: 0 0 auto;
+    width: calc(33.33% - 20px); 
+    padding: 20px;
+    box-shadow: 0 0 8px #473100;
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease;
+    background-color: rgb(222, 228, 222);
+}
+
+.reviews .review_box .review_card i {
+    font-size: 60px;
+    color: #535353;
+}
+
+.reviews .review_box .review_card .card_top img {
+    width: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.reviews .review_box .review_card .card p {
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.reviews .review_box .review_card .card .review_icon i {
+    font-size: 16px;
+    color: #ffe607;
+    padding: 0 2px;
+}
+
+.reviews .review_box .review_card:hover {
+    box-shadow: 0 0 12px #473100;
+}
+
+/* Footer */
+
+footer {
+    background: #d3d3d3;
+    padding: 20px;
+}
+
+footer .footer_main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer .footer_main .tag {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+footer .footer_main .tag img {
+    width: 100px;
+}
+
+footer .footer_main .tag H2 {
+    width: 100px;
+}
+
+footer .footer_main .tag h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+footer .footer_main .tag a {
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+footer .footer_main .tag i {
+    margin-right: 10px;
+}
+
+footer .footer_main .tag .social_link i {
+    font-size: 24px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+footer .footer_main .tag .social_link i:hover {
+    color: #01b65b;
+}
+
+footer .footer_main .tag .search_bar {
+    width: 230px;
+    height: 30px;
+    background: rgba(202, 202, 202);
+    border-radius: 25px;
+}
+
+footer .footer_main .tag .search_bar input {
+    width: 200px;
+    padding: 2px 0;
+    position: relative;
+    top: 17%;
+    left: 6%;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    background: none;
+}
+
+footer .footer_main .tag .search_bar button {
+    padding: 7px 15px;
+    background: #01b65b;
+    border: none;
+    margin-top: 20px;
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+}
+
+footer .footer_main .tag .search_bar button:hover {
+    background: rgb(190, 0, 0);
+    transition: background-color 0.5s ease;
+}
+
+footer .end {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    section nav {
+        padding: 5px; 
+    }
+
+    section nav .logo img {
+        max-width: 80px; 
+    }
+
+    section .main {
+        flex-direction: column; 
+    }
+
+    section .main h1 {
+        font-size: 40px;
+    }
+
+    section .main p {
+        font-size: 16px;
+    }
+
+    section .main .main_tag .main_btn {
+        font-size: 14px; 
+    }
+
+    .PoluparGenra .Genra_box .Genra_card,
+    .buttom_genre .buttom_box .buttom_card,
+    .sell_books .sell_book_box .sell_book_card {
+        width: 100%; 
+        margin: 0 0 20px 0; 
+    }
+
+    footer .footer_main .tag .search_bar {
+        width: 200px; 
+    }
+
+    footer .footer_main .tag .search_bar input {
+        width: 150px; 
+    }
+}
